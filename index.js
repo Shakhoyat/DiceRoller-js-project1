@@ -12,7 +12,7 @@ function rolldice() {
     const value = Math.floor(Math.random() * 6) + 1;
 
     values.push(value);
-    images.push(`dice_images/${value}.png`);
+    images.push(`<img src="dice_images/${value}.png" alt="dice${value}" />`);
     // images.push(`images/dice${value}.png`);
   }
   diceResult.textContent = `dice: ${values.join(", ")}`;
