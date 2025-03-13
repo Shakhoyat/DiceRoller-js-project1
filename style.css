@@ -30,3 +30,11 @@ input{
     border-radius: 0.5rem;
     border: 1px solid black;
 }
+#diceResult{
+    margin: 25px;
+}
+#diceImages{
+    width: 150px;
+    margin: 5px;
+    align-items: center;
+}
